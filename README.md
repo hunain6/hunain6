@@ -1,6 +1,7 @@
 - 👋 Hi, I’m @hunain6
-- 👀 I’m interested in web
-- 🌱 I’m currently learning javascript
+- 🔍 Strong in C++  
+- 👀 I’m interested in databases
+- 🌱 I’m currently learning mongodb
 - 💞️ I’m looking to collaborate with different organizations
 - 📫 you can reach me by gmail: hunainfarhat@gmail.com
 
