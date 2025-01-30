@@ -3,7 +3,7 @@
 - 👀 I’m interested in databases
 - 🌱 I’m currently learning mongodb
 - 💞️ I’m looking to collaborate with different organizations
-- 📫 you can reach me by gmail: hunainfarhat@gmail.com
+- 📫 Reach me at gmail: hunainfarhat9@gmail.com
 
 <!---
 hunain6/hunain6 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
