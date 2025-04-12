@@ -1,0 +1,299 @@
+#include "raylib.h"
+#include <iostream>
+#include <chrono>
+#include <thread>
+
+using namespace std;
+
+const int N = 9;
+#define SCREEN_WIDTH 730
+#define SCREEN_HEIGHT 620
+#define CELL_SIZE 50
+
+struct TreeNode {
+    int data;
+    TreeNode* left;
+    TreeNode* right;
+    TreeNode(int val) : data(val), left(nullptr), right(nullptr) {}
+};
+
+void Insert(TreeNode*& root, int val) {
+    if (!root) {
+        root = new TreeNode(val);
+        return;
+    }
+    if (val < root->data) {
+        Insert(root->left, val);
+    }
+    else {
+        Insert(root->right, val);
+    }
+}
+
+bool Search(TreeNode* root, int val) {
+    if (!root) return false;
+    if (root->data == val) return true;
+    if (val < root->data) return Search(root->left, val);
+    return Search(root->right, val);
+}
+
+void DeleteTree(TreeNode* root) {
+    if (!root) return;
+    DeleteTree(root->left);
+    DeleteTree(root->right);
+    delete root;
+}
+
+void DrawGrid(int grid[N][N], Vector2 selectedCell, int score, int mistakes, bool gameOver, bool highlight, int highlightNum) {
+    ClearBackground(LIGHTGRAY);
+
+    // Draw cells and inner grid lines
+    for (int i = 0; i < N; i++) {
+        for (int j = 0; j < N; j++) {
+            Rectangle cell = { j * CELL_SIZE + 50, i * CELL_SIZE + 50, CELL_SIZE, CELL_SIZE };
+
+            // Highlight cells containing the correct number
+            if (highlight && grid[i][j] == highlightNum) {
+                DrawRectangleRec(cell, SKYBLUE);
+            }
+            else {
+                DrawRectangleRec(cell, LIGHTGRAY);
+            }
+
+            DrawRectangleLines(cell.x, cell.y, cell.width, cell.height, BLACK);
+
+            if (grid[i][j] != 0) {
+                DrawText(TextFormat("%d", grid[i][j]), cell.x + 15, cell.y + 10, 20, BLACK);
+            }
+        }
+    }
+
+    // Draw bold borders around each box
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            Rectangle box = { j * 3 * CELL_SIZE + 50, i * 3 * CELL_SIZE + 50, 3 * CELL_SIZE, 3 * CELL_SIZE };
+            DrawRectangleLinesEx(box, 3, BLACK);
+        }
+    }
+
+    // Highlight selected cell
+    if (selectedCell.x != -1 && selectedCell.y != -1) {
+        DrawRectangleLinesEx({ selectedCell.x * CELL_SIZE + 50, selectedCell.y * CELL_SIZE + 50, CELL_SIZE, CELL_SIZE }, 3, RED);
+    }
+
+    // Draw score and mistakes
+    DrawText(TextFormat("Score: %d", score), SCREEN_WIDTH - 150, 100, 20, DARKBLUE);
+    DrawText(TextFormat("Mistakes: %d", mistakes), SCREEN_WIDTH - 150, 140, 20, RED);
+
+    // Draw solve button
+    DrawRectangle(SCREEN_WIDTH - 150, 200, 120, 45, BLUE);
+    DrawText("SOLVE", SCREEN_WIDTH - 130, 210, 20, WHITE);
+
+    // Draw restart button
+    DrawRectangle(SCREEN_WIDTH - 150, 260, 120, 45, BLUE);
+    DrawText("RESTART", SCREEN_WIDTH - 140, 270, 20, WHITE);
+
+    // Draw quit button
+    DrawRectangle(SCREEN_WIDTH - 150, 320, 120, 45, BLUE);
+    DrawText("QUIT", SCREEN_WIDTH - 130, 330, 20, WHITE);
+
+    // Draw game over message
+    if (gameOver) {
+        DrawText("GAME LOST", SCREEN_WIDTH / 2 - 100, SCREEN_HEIGHT / 2 - 20, 40, RED);
+    }
+}
+
+bool isSafe(int grid[N][N], int row, int col, int num) {
+    for (int i = 0; i < N; i++) {
+        if (grid[row][i] == num) {
+            return false;
+        }
+    }
+    for (int j = 0; j < N; j++) {
+        if (grid[j][col] == num) {
+            return false;
+        }
+    }
+    int startRow = row - row % 3;
+    int startCol = col - col % 3;
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            if (grid[i + startRow][j + startCol] == num) {
+                return false;
+            }
+        }
+    }
+    return true;
+}
+
+bool solveSudokuGUI(int grid[N][N], int row, int col) {
+    if (row == N - 1 && col == N) {
+        return true;
+    }
+    if (col == N) {
+        row++;
+        col = 0;
+    }
+    if (grid[row][col] > 0) {
+        return solveSudokuGUI(grid, row, col + 1);
+    }
+    for (int num = 1; num <= N; num++) {
+        if (isSafe(grid, row, col, num)) {
+            grid[row][col] = num;
+            this_thread::sleep_for(chrono::milliseconds(1));
+
+            BeginDrawing();
+            DrawGrid(grid, { -1, -1 }, 0, 0, false, false, 0);
+            EndDrawing();
+
+            if (solveSudokuGUI(grid, row, col + 1)) {
+                return true;
+            }
+        }
+        grid[row][col] = 0;
+    }
+    return false;
+}
+
+void RestartGame(int grid[N][N], int initialGrid[N][N], int& score, int& mistakes, bool& gameOver, Vector2& selectedCell) {
+    // Copy the initial grid to the current grid
+    for (int i = 0; i < N; i++) {
+        for (int j = 0; j < N; j++) {
+            grid[i][j] = initialGrid[i][j];
+        }
+    }
+    score = 0;
+    mistakes = 0;
+    gameOver = false;
+    selectedCell = { -1, -1 };
+}
+
+void HighlightNumber(int grid[N][N], TreeNode* root, int num) {
+    if (!root) return;
+    if (root->data == num) {
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < N; j++) {
+                if (grid[i][j] == num) {
+                    grid[i][j] = -num; // Negative number indicates highlighting
+                }
+            }
+        }
+    }
+    HighlightNumber(grid, root->left , num);
+    HighlightNumber(grid, root->right, num);
+}
+
+int main() {
+    int initialGrid[N][N] = {
+        { 3, 0, 6, 5, 0, 8, 4, 0, 0 },
+        { 5, 2, 0, 0, 0, 0, 0, 0, 0 },
+        { 0, 8, 7, 0, 0, 0, 0, 3, 1 },
+        { 0, 0, 3, 0, 1, 0, 0, 8, 0 },
+        { 9, 0, 0, 8, 6, 3, 0, 0, 5 },
+        { 0, 5, 0, 0, 9, 0, 6, 0, 0 },
+        { 1, 3, 0, 0, 0, 0, 2, 5, 0 },
+        { 0, 0, 0, 0, 0, 0, 0, 7, 4 },
+        { 0, 0, 5, 2, 0, 6, 3, 0, 0 }
+    };
+
+    int grid[N][N];
+    for (int i = 0; i < N; i++) {
+        for (int j = 0; j < N; j++) {
+            grid[i][j] = initialGrid[i][j];
+        }
+    }
+
+    int score = 0;
+    int mistakes = 0;
+    bool gameOver = false;
+    bool highlight = false;
+    int highlightNum = 0;
+    Vector2 selectedCell = { -1, -1 };
+    auto highlightEnd = chrono::steady_clock::now();
+
+    // Building BST for highlighting numbers
+    TreeNode* root = nullptr;
+    for (int i = 0; i < N; ++i) {
+        for (int j = 0; j < N; ++j) {
+            if (initialGrid[i][j] != 0) {
+                Insert(root, initialGrid[i][j]);
+            }
+        }
+    }
+
+    InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Sudoku Solver & Game");
+
+    SetTargetFPS(60);
+
+    while (!WindowShouldClose()) {
+        if (!gameOver) {
+            if (IsKeyPressed(KEY_UP)) {
+                if (selectedCell.y > 0) selectedCell.y--;
+            }
+            if (IsKeyPressed(KEY_DOWN)) {
+                if (selectedCell.y < N - 1) selectedCell.y++;
+            }
+            if (IsKeyPressed(KEY_LEFT)) {
+                if (selectedCell.x > 0) selectedCell.x--;
+            }
+            if (IsKeyPressed(KEY_RIGHT)) {
+                if (selectedCell.x < N - 1) selectedCell.x++;
+            }
+
+            for (int num = 1; num <= 9; num++) {
+                if (IsKeyPressed(KEY_ONE + num - 1)) {
+                    if (grid[(int)selectedCell.y][(int)selectedCell.x] == 0 && isSafe(grid, (int)selectedCell.y, (int)selectedCell.x, num)) {
+                        grid[(int)selectedCell.y][(int)selectedCell.x] = num;
+                        score += 8;
+                        highlight = true;
+                        highlightNum = num;
+                        highlightEnd = chrono::steady_clock::now() + chrono::seconds(1);
+                    }
+                    else {
+                        mistakes++;
+                    }
+                }
+            }
+
+            if (mistakes >= 3) {
+                gameOver = true;
+            }
+
+            if (highlight && chrono::steady_clock::now() >= highlightEnd) {
+                highlight = false;
+                // Removing highlighting
+                for (int i = 0; i < N; i++) {
+                    for (int j = 0; j < N; j++) {
+                        if (grid[i][j] < 0) {
+                            grid[i][j] = -grid[i][j]; // Removing negative sign
+                        }
+                    }
+                }
+            }
+
+            if (IsMouseButtonPressed(MOUSE_BUTTON_LEFT)) {
+                Vector2 mousePoint = GetMousePosition();
+                if (CheckCollisionPointRec(mousePoint, { SCREEN_WIDTH - 150, 200, 100, 40 })) {
+                    solveSudokuGUI(grid, 0, 0);
+                }
+                if (CheckCollisionPointRec(mousePoint, { SCREEN_WIDTH - 150, 260, 100, 40 })) {
+                    RestartGame(grid, initialGrid, score, mistakes, gameOver, selectedCell);
+                }
+                if (CheckCollisionPointRec(mousePoint, { SCREEN_WIDTH - 150, 320, 100, 40 })) {
+                    CloseWindow();
+                    DeleteTree(root); // Freeing memory
+                    return 0;
+                }
+            }
+        }
+
+        BeginDrawing();
+        DrawGrid(grid, selectedCell, score, mistakes, gameOver, highlight, highlightNum);
+        EndDrawing();
+    }
+
+    CloseWindow();
+    DeleteTree(root); // Freeing memory
+
+    return 0;
+}
