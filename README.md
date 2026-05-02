@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @hunain6
-- 🔍 Strong in C++  
-- 👀 I’m interested in databases
-- 🌱 I’m currently learning mongodb
+- 🔍 Strong in C++, Python 
+- 👀 I’m interested in AI/ML, Web development, databases.
+- 🌱 I’m currently learning RAG.
 - 💞️ I’m looking to collaborate with different organizations
 - 📫 Reach me at gmail: hunainfarhat9@gmail.com
 
