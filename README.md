@@ -1,5 +1,43 @@
-# 💫 About Me:
-<br>👋 Hi, I’m @hunain6<br>🔍 Strong in C++, Python<br>👀 I’m interested in AI/ML, Web development, databases.<br>🌱 I’m currently learning RAG.<br>💞️ I’m looking to collaborate with different organizations<br>📫 Reach me at gmail: hunainfarhat9@gmail.com
+# 🚀 About Me
+
+<p align="center">
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="80">
+</p>
+
+👋 Hi, I’m **@hunain6**  
+💡 AI/ML enthusiast | C++ & Python developer | Future full-stack builder  
+
+---
+
+## 🧠 What I do
+- 🔍 Strong in **C++**, **Python**
+- 🤖 Passionate about **AI/ML**, **RAG systems**, and intelligent apps
+- 🌐 Exploring **Web Development** + **Databases**
+- ⚙️ Turning ideas into real, working systems
+
+---
+
+## 🌱 Currently Learning
+- Retrieval-Augmented Generation (RAG)
+- Advanced AI system design
+- Building production-ready ML projects
+
+---
+
+## 🤝 Collaboration
+I love working on **AI projects, open-source tools, and real-world systems**.  
+Always open to collaborating with developers & organizations.
+
+---
+
+## 📫 Reach Me
+📩 Email: **hunainfarhat9@gmail.com**
+
+---
+
+<p align="center">
+  <img src="https://media.giphy.com/media/3o7aCTfyhYawdOXcFW/giphy.gif" width="250">
+</p>
 
 
 ## 🌐 Socials:
