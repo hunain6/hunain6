@@ -1,7 +1,9 @@
 # 🚀 About Me
+👋 Hi, I’m HUNAIN FARHAT.  
 
-👋 Hi, I’m HUNAIN FARHAT. 
-💡 AI/ML enthusiast | C++ & Python developer | Future Full-stack builder  
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Hunain+Farhat;AI%2FML+Enthusiast;C%2B%2B+%7C+Python+Developer;Future+Full-Stack+Builder" />
+</p>
 
 ---
 
@@ -26,9 +28,6 @@ Always open to collaborating with developers & organizations.
 
 ---
 
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7aCTfyhYawdOXcFW/giphy.gif" width="250">
-</p>
 
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/hunainfarhat) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/hunain.fht) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Hunainfarhat) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:hunainfarhat9@gmail.com) 
