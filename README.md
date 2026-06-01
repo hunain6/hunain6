@@ -1,16 +1,33 @@
-# 💫 About Me
+# 🚀 About Me
+
+👋 Hi, I’m HUNAIN FARHAT. 
+💡 AI/ML enthusiast | C++ & Python developer | Future Full-stack builder  
+
+---
+
+## 🧠 What I do
+- 🔍 Strong in **C++**, **Python**
+- 🤖 Passionate about **AI/ML**, **RAG systems**, and intelligent apps
+- 🌐 Exploring **Web Development** + **Databases**
+- ⚙️ Turning ideas into real, working systems
+
+
+## 🌱 Currently Learning
+- Retrieval-Augmented Generation (RAG)
+- Advanced AI system design
+- Building production-ready ML projects
+
+## 🤝 Collaboration
+I love working on **AI projects, open-source tools, and real-world systems**.  
+Always open to collaborating with developers & organizations.
+
+## 📫 Reach Me
+📩 Email: **hunainfarhat9@gmail.com**
+
+---
 
 <p align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="70">
-</p>
-
-I’m @hunain6, a C++ and Python developer with a strong passion for AI/ML and building intelligent systems that solve real-world problems. I enjoy exploring areas like Machine Learning, Retrieval-Augmented Generation (RAG), Web Development, and Databases, and I’m continuously learning to strengthen my skills in modern AI technologies. I like turning ideas into practical, working software and collaborating with others to build meaningful projects. Currently, I’m focused on deepening my understanding of RAG and advanced AI systems while staying open to opportunities where I can contribute, learn, and grow.  
-
-<p align="center">
-  <img src="https://media.giphy.com/media/l0HlNQ03J5JxX6lva/giphy.gif" width="250">
-</p>
-<p align="center">
-  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="220">
+  <img src="https://media.giphy.com/media/3o7aCTfyhYawdOXcFW/giphy.gif" width="250">
 </p>
 
 ## 🌐 Socials:
