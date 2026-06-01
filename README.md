@@ -5,17 +5,19 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Hunain+Farhat;AI%2FML+Enthusiast;C%2B%2B+%7C+Python+Developer;Future+Full-Stack+Builder" />
 </p>
 
+---
+
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2000&pause=800&color=00F7FF&center=true&vCenter=true&width=500&lines=SYSTEM+LOADING...;INITIALIZING+PROFILE...;WELCOME+DEVELOPER" />
 </p>
 
 ## 💡 What I Do
 
-- 🤖 I build AI/ML-driven solutions and intelligent systems  
-- 🧠 I develop AI-integrated web and mobile applications  
-- ⚙️ I work with machine learning models, APIs, and automation pipelines  
-- 🌐 I create smart, scalable full-stack applications powered by AI  
-- 📊 I explore data-driven problem solving and model optimization  
+ 🤖 I build AI/ML driven solutions and intelligent systems. 
+ 🧠 I develop AI integrated web and mobile applications.  
+ ⚙️ I work with Machine learning models, APIs, and Automation pipelines. 
+ 🌐 I create smart, scalable Full-stack applications powered by AI.  
+ 📊 I explore data-driven problem solving and model optimization.  
 
 ## 🌱 Currently Learning
 - Retrieval-Augmented Generation (RAG)
