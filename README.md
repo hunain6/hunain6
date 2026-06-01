@@ -1,24 +1,21 @@
-# 💻 <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="35"> Hunain Farhat
+# 💫 About Me
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=AI%2FML+Enthusiast;C%2B%2B+%7C+Python+Developer;Building+Smart+Systems+with+RAG;Always+Learning+Something+New+%F0%9F%9A%80" />
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="70">
 </p>
 
----
+👋 Hi, I’m **@hunain6**  
+💻 C++ & Python developer with a strong focus on AI/ML  
 
-## 🧠 About Me
-```cpp
-class Hunain {
-public:
-    string name = "Hunain Farhat";
-    string role = "AI/ML Enthusiast & Developer";
+🤖 I’m interested in Artificial Intelligence, Machine Learning, Web Development, and Databases.  
+🌱 Currently diving into **RAG (Retrieval-Augmented Generation)** and modern AI systems.  
+🚀 I enjoy turning ideas into real, working software systems.  
+🤝 Open to collaborating with teams, developers, and organizations.  
+📫 Reach me at: **hunainfarhat9@gmail.com**
 
-    vector<string> skills = {"C++", "Python", "AI/ML", "Databases", "Web Dev"};
-
-    void mindset() {
-        cout << "Turn ideas into intelligent systems." << endl;
-    }
-};
+<p align="center">
+  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="220">
+</p>
 
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/hunainfarhat) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/hunain.fht) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Hunainfarhat) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:hunainfarhat9@gmail.com) 
