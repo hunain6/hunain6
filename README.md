@@ -2,10 +2,9 @@
 👋 Hi, I’m HUNAIN FARHAT.  
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Hunain+Farhat;AI%2FML+Enthusiast;C%2B%2B+%7C+Python+Developer;Future+Full-Stack+Builder" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Hunain+Farhat;AI%2FML+Enthusiast;C%2B%2B+%7C+Python+Developer;Future+Full-Stack+Builder" />
 </p>
 
----
 
 ## 🧠 What I do
 - 🔍 Strong in **C++**, **Python**
