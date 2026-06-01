@@ -11,11 +11,11 @@
 
 ## 💡 What I Do
 
-- 🚀 I build projects in C++ and Java
-- 🌐 I’m learning Web Development (MERN Stack in progress)
-- 🗄️ Exploring MongoDB and backend systems
-- 🎮 I enjoy building interactive apps and games with raylib
-- 🧠 Currently improving my problem-solving and OS concepts
+- 🤖 I build AI/ML-driven solutions and intelligent systems  
+- 🧠 I develop AI-integrated web and mobile applications  
+- ⚙️ I work with machine learning models, APIs, and automation pipelines  
+- 🌐 I create smart, scalable full-stack applications powered by AI  
+- 📊 I explore data-driven problem solving and model optimization  
 
 ## 🌱 Currently Learning
 - Retrieval-Augmented Generation (RAG)
