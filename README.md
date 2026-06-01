@@ -1,18 +1,22 @@
 # 💫 About Me
 
 <p align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="70">
+  <img src="https://media.giphy.com/media/2IudUHdI075HL02Pkk/giphy.gif" width="90">
 </p>
 
-👋 Hi, I’m **@hunain6**  
-💻 C++ & Python developer with a strong focus on AI/ML  
+```python
+class Hunain:
+    def __init__(self):
+        self.username = "hunain6"
+        self.role = "AI/ML Enthusiast & Developer"
+        self.languages = ["C++", "Python"]
+        self.interests = ["AI/ML", "Web Development", "Databases"]
 
-🤖 I’m interested in Artificial Intelligence, Machine Learning, Web Development, and Databases.  
-🌱 Currently diving into **RAG (Retrieval-Augmented Generation)** and modern AI systems.  
-🚀 I enjoy turning ideas into real, working software systems.  
-🤝 Open to collaborating with teams, developers, and organizations.  
-📫 Reach me at: **hunainfarhat9@gmail.com**
+    def current_focus(self):
+        return "Retrieval-Augmented Generation (RAG)"
 
+    def mission(self):
+        return "Build intelligent systems that solve real-world problems"
 <p align="center">
   <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="220">
 </p>
