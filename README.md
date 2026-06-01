@@ -28,7 +28,7 @@ interests:
   - RAG Systems
   - Web Development
   - Databases
-
+---
 ## 🌱 Currently Learning
 - Retrieval-Augmented Generation (RAG)
 - Advanced AI system design
