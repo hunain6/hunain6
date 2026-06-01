@@ -16,7 +16,6 @@
 ## 🌱 Currently Learning
 - Retrieval-Augmented Generation (RAG)
 - Advanced AI system design
-- Building production-ready ML projects
 
 ## 🤝 Collaboration
 I love working on **AI projects, open-source tools, and real-world systems**.  
