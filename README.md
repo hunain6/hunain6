@@ -2,7 +2,10 @@
 👋 Hi, I’m HUNAIN FARHAT.  
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Hunain+Farhat;AI%2FML+Enthusiast;C%2B%2B+%7C+Python+Developer" />
+  <img src="https://dummyimage.com/800x120/000000/00ff00&text=INITIALIZING+SYSTEM..." />
+</p>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=800&color=00FF00&center=true&vCenter=true&width=700&lines=Hunain+Farhat;AI%2FML+Engineer;AI+Driven+Solutions+Builder;C%2B%2B+%7C+Python+%7C+ML" />
 </p>
 
 ---
