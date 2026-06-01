@@ -7,11 +7,27 @@
 
 
 ## 🧠 What I do
-- 🔍 Strong in **C++**, **Python**
-- 🤖 Passionate about **AI/ML**, **RAG systems**, and intelligent apps
-- 🌐 Exploring **Web Development** + **Databases**
-- ⚙️ Turning ideas into real, working systems
 
+<table>
+<tr>
+<td width="50%">
+
+```yaml
+name: Hunain Farhat
+role: AI/ML Enthusiast + Developer
+focus: Intelligent Systems & Real-world AI Apps
+
+skills:
+  - C++
+  - Python
+  - Problem Solving
+
+interests:
+  - Artificial Intelligence
+  - Machine Learning
+  - RAG Systems
+  - Web Development
+  - Databases
 
 ## 🌱 Currently Learning
 - Retrieval-Augmented Generation (RAG)
