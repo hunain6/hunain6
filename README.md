@@ -5,31 +5,18 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Hunain+Farhat;AI%2FML+Enthusiast;C%2B%2B+%7C+Python+Developer;Future+Full-Stack+Builder" />
 </p>
 
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2000&pause=800&color=00F7FF&center=true&vCenter=true&width=500&lines=SYSTEM+LOADING...;INITIALIZING+PROFILE...;WELCOME+DEVELOPER" />
+</p>
 
-## 🧠 What I do
+## 💡 What I Do
 
-<table>
-<tr>
-<td width="50%">
+- 🚀 I build projects in C++ and Java
+- 🌐 I’m learning Web Development (MERN Stack in progress)
+- 🗄️ Exploring MongoDB and backend systems
+- 🎮 I enjoy building interactive apps and games with raylib
+- 🧠 Currently improving my problem-solving and OS concepts
 
-```yaml
-name: Hunain Farhat
-role: AI/ML Enthusiast + Developer
-focus: Intelligent Systems & Real-world AI Apps
-
-skills:
-  - C++
-  - Python
-  - Problem Solving
-
-interests:
-  - Artificial Intelligence
-  - Machine Learning
-  - RAG Systems
-  - Web Development
-  - Databases
-<table>
----
 ## 🌱 Currently Learning
 - Retrieval-Augmented Generation (RAG)
 - Advanced AI system design
