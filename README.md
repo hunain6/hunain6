@@ -1,44 +1,24 @@
-# 🚀 About Me
+# 💻 <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="35"> Hunain Farhat
 
 <p align="center">
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="80">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=AI%2FML+Enthusiast;C%2B%2B+%7C+Python+Developer;Building+Smart+Systems+with+RAG;Always+Learning+Something+New+%F0%9F%9A%80" />
 </p>
 
-👋 Hi, I’m **@hunain6**  
-💡 AI/ML enthusiast | C++ & Python developer | Future full-stack builder  
-
 ---
 
-## 🧠 What I do
-- 🔍 Strong in **C++**, **Python**
-- 🤖 Passionate about **AI/ML**, **RAG systems**, and intelligent apps
-- 🌐 Exploring **Web Development** + **Databases**
-- ⚙️ Turning ideas into real, working systems
+## 🧠 About Me
+```cpp
+class Hunain {
+public:
+    string name = "Hunain Farhat";
+    string role = "AI/ML Enthusiast & Developer";
 
----
+    vector<string> skills = {"C++", "Python", "AI/ML", "Databases", "Web Dev"};
 
-## 🌱 Currently Learning
-- Retrieval-Augmented Generation (RAG)
-- Advanced AI system design
-- Building production-ready ML projects
-
----
-
-## 🤝 Collaboration
-I love working on **AI projects, open-source tools, and real-world systems**.  
-Always open to collaborating with developers & organizations.
-
----
-
-## 📫 Reach Me
-📩 Email: **hunainfarhat9@gmail.com**
-
----
-
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7aCTfyhYawdOXcFW/giphy.gif" width="250">
-</p>
-
+    void mindset() {
+        cout << "Turn ideas into intelligent systems." << endl;
+    }
+};
 
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/hunainfarhat) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/hunain.fht) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Hunainfarhat) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:hunainfarhat9@gmail.com) 
