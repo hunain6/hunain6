@@ -7,6 +7,7 @@
 
 ---
 
+
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2000&pause=800&color=00F7FF&center=true&vCenter=true&width=500&lines=SYSTEM+LOADING...;INITIALIZING+PROFILE...;WELCOME+DEVELOPER" />
 </p>
@@ -14,9 +15,13 @@
 ## 💡 What I Do
 
  🤖 I build AI/ML driven solutions and intelligent systems. 
+ 
  🧠 I develop AI integrated web and mobile applications.  
+ 
  ⚙️ I work with Machine learning models, APIs, and Automation pipelines. 
+ 
  🌐 I create smart, scalable Full-stack applications powered by AI.  
+ 
  📊 I explore data-driven problem solving and model optimization.  
 
 ## 🌱 Currently Learning
