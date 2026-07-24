@@ -7,15 +7,11 @@
 
 #  What I Do
 
- 🤖 I build AI/ML driven solutions and intelligent systems. 
- 
- 🧠 I develop AI integrated web and mobile applications.  
- 
- ⚙️ I work with Machine learning models, APIs, and Automation pipelines. 
- 
- 🌐 I create smart, scalable Full-stack applications powered by AI.  
- 
- 📊 I explore data-driven problem solving and model optimization.  
+  - I build AI/ML driven solutions and intelligent systems. 
+  - I develop AI integrated web and mobile applications.  
+  - I work with Machine learning models, APIs, and Automation pipelines. 
+  - I create smart, scalable Full-stack applications powered by AI.  
+  - I explore data-driven problem solving and model optimization.  
 
  ---
 
