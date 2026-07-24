@@ -1,7 +1,7 @@
 #  Hi, I’m HUNAIN FARHAT.  
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=800&color=00FF00&center=true&vCenter=true&width=700&lines=Hunain+Farhat;AI%2FML+Engineer;AI+Driven+Solutions+Builder;C%2B%2B+%7C+Python+%7C+ML" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=800&color=00FF00&center=true&vCenter=true&width=700&lines=Hunain+Farhat;Software+Engineer;AI+Driven+Solutions+Builder;C%2B%2B+%7C+Python+%7C+ML" />
 </p>
 
 
